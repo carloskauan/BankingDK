@@ -1,0 +1,14 @@
+C:\Users\CARLO\Desktop\C#\BankingDK\bin\Debug\net8.0\BankingDK.exe
+C:\Users\CARLO\Desktop\C#\BankingDK\bin\Debug\net8.0\BankingDK.deps.json
+C:\Users\CARLO\Desktop\C#\BankingDK\bin\Debug\net8.0\BankingDK.runtimeconfig.json
+C:\Users\CARLO\Desktop\C#\BankingDK\bin\Debug\net8.0\BankingDK.dll
+C:\Users\CARLO\Desktop\C#\BankingDK\bin\Debug\net8.0\BankingDK.pdb
+C:\Users\CARLO\Desktop\C#\BankingDK\obj\Debug\net8.0\BankingDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CARLO\Desktop\C#\BankingDK\obj\Debug\net8.0\BankingDK.AssemblyInfoInputs.cache
+C:\Users\CARLO\Desktop\C#\BankingDK\obj\Debug\net8.0\BankingDK.AssemblyInfo.cs
+C:\Users\CARLO\Desktop\C#\BankingDK\obj\Debug\net8.0\BankingDK.csproj.CoreCompileInputs.cache
+C:\Users\CARLO\Desktop\C#\BankingDK\obj\Debug\net8.0\BankingDK.dll
+C:\Users\CARLO\Desktop\C#\BankingDK\obj\Debug\net8.0\refint\BankingDK.dll
+C:\Users\CARLO\Desktop\C#\BankingDK\obj\Debug\net8.0\BankingDK.pdb
+C:\Users\CARLO\Desktop\C#\BankingDK\obj\Debug\net8.0\BankingDK.genruntimeconfig.cache
+C:\Users\CARLO\Desktop\C#\BankingDK\obj\Debug\net8.0\ref\BankingDK.dll

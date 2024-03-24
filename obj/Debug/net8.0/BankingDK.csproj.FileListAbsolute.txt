@@ -12,3 +12,4 @@ C:\Users\CARLO\Desktop\C#\BankingDK\obj\Debug\net8.0\refint\BankingDK.dll
 C:\Users\CARLO\Desktop\C#\BankingDK\obj\Debug\net8.0\BankingDK.pdb
 C:\Users\CARLO\Desktop\C#\BankingDK\obj\Debug\net8.0\BankingDK.genruntimeconfig.cache
 C:\Users\CARLO\Desktop\C#\BankingDK\obj\Debug\net8.0\ref\BankingDK.dll
+C:\Users\CARLO\Desktop\C#\BankingDK\obj\Debug\net8.0\BankingDK.sourcelink.json

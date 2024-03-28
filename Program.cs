@@ -25,7 +25,21 @@
 
             break;
           case 2:
+            while(true){
+              System.Console.WriteLine("INSERT NUMBER ACCOUNT: ");
+              int numberAccount = int.Parse(Console.ReadLine());
 
+              System.Console.WriteLine("INSERT AGENCY: ");
+              sbyte agency = sbyte.Parse(Console.ReadLine());
+
+              System.Console.WriteLine("INSERT VALUE TO DEPOSIT: ");
+              ulong value = ulong.Parse(Console.ReadLine());
+
+              if(!(banking.Deposit(numberAccount, agency, value)))
+                break;
+              System.Console.WriteLine("TRY AGAIN..");
+            }
+            
             break;
           case 3:
 
@@ -33,6 +47,13 @@
           case 4:
 
             break;
+
+          //DEV METHOD
+          case 5:
+            banking.ShowAccountsData();
+            banking.TesteGetAccount(int.Parse(Console.ReadLine()), sbyte.Parse(Console.ReadLine()));
+            break;
+          //DEV METHOD
           case 0 :
             System.Environment.Exit(0);
             break;
@@ -48,10 +69,8 @@
       while(true){
         Console.Write("Name: ");
         name = Console.ReadLine();
-
-        bool isvalid = Validators.Name(name);
         
-        if(isvalid)
+        if(Validators.Name(name))
           break;
 
         System.Console.WriteLine("Invalid name!!");

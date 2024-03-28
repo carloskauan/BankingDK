@@ -11,8 +11,16 @@ namespace BankingDK{
 
       Accounts.Add(newAccount);
     }
-    public void Deposit(){
+    public bool Deposit(int numberAccount, sbyte agency, ulong value){
+      int indexAccount = FindIndexAccount(numberAccount, agency);
+      if(indexAccount == -1){
+        System.Console.WriteLine("DESPOSIT FAILD");
+        return true;
+      }
 
+      Accounts[indexAccount].AttBalance(value, "add");
+      System.Console.WriteLine("DESPOSIT SUCESSFULL");
+      return false;
     }
     public void Withdraw(){
 
@@ -20,6 +28,16 @@ namespace BankingDK{
     public void Transfer(){
       
     }
+
+    public int FindIndexAccount(int numberAccount, sbyte agency){
+      return Accounts.FindIndex(param => (param.GetNumberAccount() == numberAccount && param.GetAgency() == agency));
+    }
+
+    //DEV METHOD
+    public void TesteGetAccount(int numberAccount, sbyte agency){
+      System.Console.WriteLine(FindIndexAccount(numberAccount, agency));
+    }
+    //DEV METHOD
     public void ShowAccountsData(){
       foreach (var account in Accounts){
         System.Console.WriteLine(account);

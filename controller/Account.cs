@@ -50,5 +50,13 @@ namespace BankingDK{
      return $"\n--------NAME: {Name}\n ACCOUNT NUMBER: {NumberAccount}\nCPF: {Cpf}\nAGENCY: {Agency}\nPASSWORD: {Password}\nBALANCE: {Balance}";
     }
 
+    //Getters e Setters
+    public int GetNumberAccount(){
+      return NumberAccount;
     }
+    public sbyte GetAgency(){
+      return Agency;
+    }
+
+  }
 }

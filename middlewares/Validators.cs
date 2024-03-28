@@ -2,7 +2,7 @@ using System.Text;
 namespace BankingDK{
   class Validators{
     public static bool Name(string name){ 
-      if((name.Length > 8 && name.Length <= 50) || string.IsNullOrEmpty(name))
+      if((name.Length < 8 && name.Length <= 50) || string.IsNullOrEmpty(name))
         return false;  
 
       int spaceCount = 0;

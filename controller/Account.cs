@@ -57,6 +57,11 @@ namespace BankingDK{
     public sbyte GetAgency(){
       return Agency;
     }
-
+    public string GetPassword(){
+      return Password;
+    }
+    public ulong GetBalance(){
+      return Balance;
+    }
   }
 }
